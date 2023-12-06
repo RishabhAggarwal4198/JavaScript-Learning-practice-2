@@ -14,3 +14,23 @@ if (isMarried === true ){
 }
 
 
+
+
+
+const array1 = [1, 2, 3, 4, 5]
+
+for (let i = 0; i < array1.length; i++) {
+    const element = array1[i];
+    console.log(`this is your ${element}th time`);
+}
+
+
+
+
+
+let answer = 0;
+
+for(let i = 0; i <= 10; i++) {
+    answer = answer +  1;
+    console.log(`Answer is : ${answer}`);
+}
