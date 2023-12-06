@@ -43,9 +43,65 @@ const ages = [21, 22, 23, 24, 25];
 
 for( let i=0; i < ages.length; i++ ){
     if(ages[i] % 2 === 0){
-        console.log(ages[i]);
-    }else{
-        
+        // console.log(ages[i]);
     }
 }
 
+
+
+//Largest Array
+
+// let largestNumber = ages[0];
+
+// for(let i = 0; i < ages.length; i++){
+//     if(ages[i] > largestNumber ){
+//         largestNumber = ages[i];
+//         console.log(largestNumber);
+//     }
+// }
+
+
+
+
+//ARRAYS of an object
+
+const allUsers = [
+    {
+        firstName:"Raghav",
+        gender: "male"
+    },
+    {
+        firstName:"Raman",
+        gender: "male"
+    },
+    {
+        firstName:"Ramesh",
+        gender: "male"
+    },
+    {
+        firstName:"Priya",
+        gender: "female"
+    }  
+]
+
+
+for(let i = 0; i < allUsers.length; i++ ){
+    if(allUsers[i].gender === "male"){
+        // console.log(allUsers[i].firstName);
+    }
+}
+
+
+
+
+
+
+
+
+// FUNCTIONS
+ 
+function sum (a, b) {
+    return a + b;
+}
+
+console.log((sum(4,4)));
