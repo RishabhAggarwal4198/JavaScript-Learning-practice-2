@@ -6,8 +6,13 @@
         </title>
         
         <style>
+            body{
+                height: 1000px;
+            }
+
             .div_out{
                 display: flex;
+               padding-top: 400px;
             }
 
             .div_2{
@@ -15,8 +20,23 @@
                 /* flex-direction: row;
                 column-gap: 10px; */
                 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-                column-gap: 20px;
+                column-gap: 10px;
             }
+
+            .div_t{
+                display: flex;
+                position: relative;
+            }
+
+
+            .div_A{
+                width: 20px;
+                height: 20px;
+                position:sticky;
+                background-color: rgb(249, 6, 6);
+                top: 0; 
+            }
+
            
         </style>
 
@@ -31,11 +51,14 @@
            
 
             <div class="div_2">
-                <div style=" padding: 10px;  background-color: rgb(174, 117, 228);">HELLO-A</div>
-                <div style=" padding: 10px;  background-color: aquamarine;" >HELLO-B</div>
-                <div style=" padding: 10px;  background-color: rgb(113, 226, 43);">HELLO-C</div>
-                <div style=" padding: 10px;  background-color: rgb(226, 110, 43);">HELLO-D</div>
-                <div style=" padding: 10px;  background-color: rgb(226, 112, 230);">HELLO-E</div>
+                <div style=" height: 200px; background-color: rgb(174, 117, 228);">HELLO-A</div>
+                <div class="div_t"  style=" height: 200px; background-color: aquamarine;" >
+                    HELLO-B
+                    <div class="div_A" >x</div>
+                </div>
+                <div style=" height: 200px; background-color: rgb(113, 226, 43);">HELLO-C</div>
+                <div style=" height: 200px; background-color: rgb(226, 110, 43);">HELLO-D</div>
+                <div style=" height: 200px; background-color: rgb(226, 112, 230);">HELLO-E</div>
             </div>
 
         </div>
