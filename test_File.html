@@ -6,6 +6,17 @@
         </title>
         
         <style>
+            .div_out{
+                display: flex;
+            }
+
+            .div_2{
+                display:grid;
+                /* flex-direction: row;
+                column-gap: 10px; */
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                column-gap: 20px;
+            }
            
         </style>
 
@@ -15,9 +26,19 @@
 
 
     <body>
-        <button>
-            GGGG
-        </button>
+       
+        <div class="div_out">
+           
+
+            <div class="div_2">
+                <div style=" padding: 10px;  background-color: rgb(174, 117, 228);">HELLO-A</div>
+                <div style=" padding: 10px;  background-color: aquamarine;" >HELLO-B</div>
+                <div style=" padding: 10px;  background-color: rgb(113, 226, 43);">HELLO-C</div>
+                <div style=" padding: 10px;  background-color: rgb(226, 110, 43);">HELLO-D</div>
+                <div style=" padding: 10px;  background-color: rgb(226, 112, 230);">HELLO-E</div>
+            </div>
+
+        </div>
 
     
        
