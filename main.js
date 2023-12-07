@@ -104,5 +104,44 @@ function sum (a, b) {
     return a + b;
 }
 
-console.log(sum(4,4));
-console.log(sum(2,2));
+// console.log(sum(4,4));
+// console.log(sum(2,2));
+
+
+
+function sum0(a,b){
+    let output = `The sum is ${a+b}`;
+    let print_val = console.log(output);
+    return print_val;
+}   
+
+// sum0(4,5);
+
+
+
+// let sum = 0;
+
+// for(let i = 0; i < 1000000000000; i++){
+//     sum = sum + i;
+// }
+
+// console.log(sum);
+
+
+
+
+
+
+function sum (num1, num2) {
+    let result = num1 + num2;
+    return result;
+}
+
+
+function displayResult(data) {
+    console.log("Result of the sum is : " + data);
+}
+
+function displayResultPassive (data) {
+    console.log("Sum's result is : " + data );
+}
