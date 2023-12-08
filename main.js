@@ -160,3 +160,4 @@ function displayResult(data) {
 
 function displayResultPassive (data) {
     console.log("Sum's result is : " + data );
+}
