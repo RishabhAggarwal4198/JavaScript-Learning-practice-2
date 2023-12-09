@@ -155,9 +155,26 @@ function sum (num1, num2) {
 
 
 function displayResult(data) {
-    console.log("Result of the sum is : " + data);
+    // console.log("Result of the sum is : " + data);
 }
 
 function displayResultPassive (data) {
-    console.log("Sum's result is : " + data );
+    // console.log("Sum's result is : " + data );
 }
+
+
+                // OR
+
+
+function calculateArithmetic (a, b, type) {
+    if(type == "sum"){
+        return a +b;
+    }
+    if (type == "minus") {
+        return a - b;
+    }
+}
+
+const vlaue = calculateArithmetic(1, 2, "minus");
+console.log(value);
+
