@@ -176,5 +176,22 @@ function calculateArithmetic (a, b, type) {
 }
 
 const vlaue = calculateArithmetic(1, 2, "minus");
-console.log(value);
+// console.log(value);
 
+
+
+
+//👇👇 CALL - BACK - FUNCTION
+
+function calculateArithmetic0(a, b, arithmeticFinalFunction){
+    const ans = arithmeticFinalFunction(a, b)
+    return ans;
+}
+
+
+function sum (a, b){
+    return a + b;
+}
+
+const value_0 = calculateArithmetic0(1, 2, sum);
+console.log(value_0 );    //  📍 Answer is "3"
