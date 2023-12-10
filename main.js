@@ -217,7 +217,44 @@ function greetAlient () {
 
 
 
-// ASSIGNMENTS :-
 
-// 1.
+// ✅✅ META-DATA example :- 
 
+const user = {
+    name:"harkirat",
+    age: 21,
+    address: {
+        houseNumber: "11",
+        street:1
+    }
+}
+
+
+// console.log(user["address"]["houseNumber"]);  // 📍 Answer is "11"
+
+                // OR
+const address = user ["address"];
+const houseNumber = address ["houseNumber"];
+// console.log(houseNumber);                     // 📍 Answer is "11"
+
+                //OR
+// console.log(user.address.houseNumber);        // 📍 Answer is "11"
+
+
+
+
+
+
+
+function getLength (str) {
+    console.log("Original String : ", str);
+    console.log("Length :" , str.length);
+}
+
+getLength("Hello World");
+
+// to understand ".length" thing 👇
+
+let ant = "Hello World";
+
+console.log(ant.length);
