@@ -191,7 +191,16 @@ function calculateArithmetic0(a, b, arithmeticFinalFunction){
 
 function sum (a, b){
     return a + b;
-}
+} 
 
 const value_0 = calculateArithmetic0(1, 2, sum);
-console.log(value_0 );    //  📍 Answer is "3"
+// console.log(value_0 );    //  📍 Answer is "3"
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+
+function greetAlient () {
+    console.log("hello alien");
+}
+
+// setInterval(greetAlient, 1*1000)
